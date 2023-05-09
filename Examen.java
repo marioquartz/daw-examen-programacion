@@ -22,7 +22,7 @@ public class Examen {
     }
 
     public static void main(String[] args) {
-        Gomez_maestre_mario_examen programa = new Gomez_maestre_mario_examen();
+        Examen programa = new Examen();
 
         //Mostrar nombre equipos
         programa.mostrarEquipos();
