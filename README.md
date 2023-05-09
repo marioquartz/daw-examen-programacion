@@ -21,8 +21,8 @@ Y tiene las siguientes funciones:
  - mostrarEquipos() Realiza una consulta y con un bucle muestra cada equipo. Yo añadi ";" y para que se viera mejor.
  - mostrarCiudad() Pides el nombre del jugador y creas una variable string para la ciudad. Si el jugador existe el bucle sobre-escribe la ciudad. Si no ciudad esta vacía. Uso esto para mostrar el mensaje correspondiente.
  - jugadorMasAlto() Este ejercicio es mas complicado. Hay dos formas de hacerlo: la pro y en dos pasos.
- - - Forma Pro: Con sub-consultas (Lo que he hecho)
- - - Dos pasos: Pedir los equipos que forman parte de una division. Añades los nombres a un String: lista+="'"+result.getString("name")+"'," y luego con esa lista pides los jugadores que estan en esos equipos. Ordenas el resultado y coges el primero.
+   - Forma Pro: Con sub-consultas (Lo que he hecho)
+   - Dos pasos: Pedir los equipos que forman parte de una division. Añades los nombres a un String: lista+="'"+result.getString("name")+"'," y luego con esa lista pides los jugadores que estan en esos equipos. Ordenas el resultado y coges el primero.
  - mediaEquipo() Puedes hacerlo con la funcion avg() o sumando todas las alturas y usando un contador (una variable int al que le añades uno por cada jugador) hayas la media.
  - opcion1() la primera parte del CRUD es poder añadir un jugador. Pides cada variable y luego vas añadiendo cada valor a una consulta insert. Guardando la consulta como int puedes saber si se ha guardado o no.
  - opcion2() Pedir el numero del jugador y proceder a eliminarlo. Lo mismo que arriba para saber si se ha eliminado o no.
